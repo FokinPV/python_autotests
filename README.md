@@ -1,8 +1,11 @@
-# api-doklad.qa.studio
-Исходный код базового фреймворка, написанного во время доклада
+# python_autotests
+
+Основная часть кода взята с доклада Саши Ворсы. Переиспользовал его классы
 
 python -m venv env
 
-.\env\Scripts\Activate.ps1
+.\env\Scripts\Activate
 
 pip install -r requirements.txt
+
+В common/helper/conf.py записать токен в переменную trainer_token 
